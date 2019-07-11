@@ -25,7 +25,7 @@
     "sc-emitter": "1.x.x",
     "sc-errors": "1.x.x",
     "sc-formatter": "1.x.x",
-    "socketcluster-server": "4.x.x",
+    "socketcluster-server": "5.1.4",
     "uid-number": "0.0.5"
   },
   "bin": {
