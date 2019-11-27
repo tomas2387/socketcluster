@@ -23,7 +23,8 @@
     "sc-errors": "^1.4.1",
     "socketcluster-server": "^14.6.0",
     "uid-number": "0.0.6",
-    "uuid": "3.2.1"
+    "uuid": "3.2.1",
+    "snyk": "^1.251.2"
   },
   "bin": {
     "socketcluster": "bin/cli.js"
@@ -39,5 +40,10 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "socketcluster-client": "^14.2.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
