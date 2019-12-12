@@ -24,7 +24,7 @@
     "socketcluster-server": "^14.6.0",
     "uid-number": "0.0.6",
     "uuid": "3.2.1",
-    "snyk": "^1.251.2"
+    "snyk": "^1.258.2"
   },
   "bin": {
     "socketcluster": "bin/cli.js"
